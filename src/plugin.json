@@ -1,6 +1,6 @@
 {
-  "name": "SimpleJson",
-  "id": "grafana-simple-json-datasource",
+  "name": "SimpleBMRAxML",
+  "id": "grafana-simple-BMRA-xml-datasource",
   "type": "datasource",
 
   "partials": {
@@ -11,21 +11,22 @@
   "annotations": true,
 
   "info": {
-    "description": "simple json datasource",
+    "description": "simple BMRA xml datasource",
     "author": {
-      "name": "Grafana Labs",
-      "url": "https://grafana.com"
+      "name": "Gurudatha Pai",
+      "url": "https://www.linkedin.com/in/gurudathapai/"
     },
     "logos": {
-      "small": "img/simpleJson_logo.svg",
-      "large": "img/simpleJson_logo.svg"
+      "small": "img/xml.svg",
+      "large": "img/xml.svg"
     },
     "links": [
-      {"name": "GitHub", "url": "https://github.com/grafana/simple-json-datasource"},
-      {"name": "MIT License", "url": "https://github.com/grafana/simple-json-datasource/blob/master/LICENSE"}
+      {"name": "GitHub", "url": "https://github.com/gurudathapai/simple-BMRA-XML-datasource"},
+      {"name": "MIT License", "url": "https://github.com/gurudathapai/simple-BMRA-XML-datasource/blob/master/LICENSE"}
     ],
     "version": "1.4.0",
-    "updated": "2018-06-20"
+    "updated": "2018-12-28",
+	"    "keywords": ["uk grid", "xml", "energy"]
   },
 
   "dependencies": {
